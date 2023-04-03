@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fullscreenFragment"
+    android:id="@+id/app">
+    <include app:graph="@navigation/landing_nav_graph" />
+    <include app:graph="@navigation/nav_graph" />
+    <fragment
+        android:id="@+id/fullscreenFragment"
+        android:name="com.example.jumpingmind_assignment.feature.splash.ui.FullscreenFragment"
+        tools:layout="@layout/fragment_fullscreen"
+
+        android:label="fragment_fullscreen">
+        <action
+            android:id="@+id/toLogin"
+            app:destination="@+id/nav_graph"
+            app:popUpTo="@id/fullscreenFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/toLandingNav"
+            app:destination="@+id/landing_nav_graph"
+            app:popUpTo="@id/fullscreenFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+</navigation>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">JumpingMind_Assignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashBoard">DashBoard</string>
+    <string name="choice_text">Please choose an option to check the facts about.</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_email">Not a valid email.</string>
+    <string name="invalid_username">Not a valid username.</string>
+    <string name="invalid_bio">Bio must be 5 characters.</string>
+    <string name="invalid_password">Password must be >5 characters.</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">Username</string>
+    <string name="bio">Bio</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Splash">Splash</string>
+    <string name="empty"> </string>
+    <string name="sign_out">Sign Out</string>
+    <string name="type_city">Type City</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="new_user_register_now">New user? Register Now</string>
+    <string name="here_s_nyour_first_nstep_with_nus">Here’s\nyour first\nstep with \nus!</string>
+    <string name="name">Name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="temperature">Temperature : </string>
+    <string name="temperature_title">Temperature : </string>
+    <string name="unable_to_fetch_data_try_reconnecting_internet_n_or_n_try_after_sometime">Unable to fetch data try reconnecting internet\n OR \n Try after SomeTime.</string>
+    <string name="refresh">Refresh</string>
+    <string name="tap_on_item_above_to_see_detail_view">Tap on item above to see detail view.</string>
+    <string name="temp_max">Temp. MAX :</string>
+    <string name="wind">Wind</string>
+    <string name="wind_speed">Wind Speed : </string>
+    <string name="wind_direction">Wind Direction : </string>
+    <string name="feels_like">Feels Like : </string>
+    <string name="other">Other</string>
+    <string name="humidity">Humidity : </string>
+    <string name="precip">Precip : </string>
+    <string name="visibility">visibility : </string>
+    <string name="search">search</string>
+    <string name="already_nhave_an_naccount">Already \nhave an \nAccount?</string>
+    <string name="log_out">Log out</string>
+    <string name="weather">Weather</string>
+</resources>

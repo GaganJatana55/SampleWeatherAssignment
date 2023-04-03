@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/landing_nav_graph"
+    app:startDestination="@id/landingFragment">
+    <fragment
+        android:id="@+id/landingFragment"
+        android:name="com.example.jumpingmind_assignment.feature.dashboard.ui.LandingFragment"
+        android:label="fragment_landing"
+        tools:layout="@layout/fragment_landing">
+        <action
+            android:id="@+id/backToLogin"
+            app:destination="@+id/nav_graph"
+            app:popUpTo="@id/landingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
